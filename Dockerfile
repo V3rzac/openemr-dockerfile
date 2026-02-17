@@ -11,5 +11,3 @@ ENV MYSQL_USER=openemr \
 # - MYSQL_ROOT_PASS
 
 EXPOSE 80 443
-
-VOLUME ["/var/log", "/var/www/localhost/htdocs/openemr/sites"]
